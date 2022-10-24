@@ -106,7 +106,7 @@ function NavBar() {
               <Button
                 href="https://github.com/ekisler/kislerportfolio"
                 target="_blank"
-                className="fork-btn-inner"
+                className="fork-btn-inner bg-primary"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
