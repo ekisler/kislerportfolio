@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://ekisler.github.io/blog-minibar.html/"
+                href="https://ekisler.github.io/blog-minibar.html"
                 target="_blank"
                 rel="noreferrer"
               >
