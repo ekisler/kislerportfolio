@@ -13,7 +13,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/kisler/kislerportfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/ekisler/kislerportfolio?color=red&logo=github&style=for-the-badge) &nbsp;
 ![GitHub forks](https://img.shields.io/github/forks/ekisler/kislerportfolio?color=red&logo=github&style=for-the-badge)
 
 </center>
