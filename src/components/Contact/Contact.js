@@ -49,7 +49,7 @@ const Contact = () => {
   }
   return (
     <Container fluid className="contact">
-      <Row style={{ justifyContent: "center", padding: "30px" }}></Row>
+      <Row style={{ justifyContent: "center", padding: "70px" }}></Row>
       {status && renderAlert()}
       <form onSubmit={handleSubmit}>
         <h2 className="text-info">Send me a message</h2>

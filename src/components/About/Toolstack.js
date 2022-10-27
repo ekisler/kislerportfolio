@@ -13,6 +13,9 @@ import {
   SiVercel,
   SiGithub,
   SiWindows,
+  SiBootstrap,
+  SiExpress,
+  SiNetlify,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -57,6 +60,18 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
       <h6 className="text-info">Responsive</h6>
         <DiResponsive />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <h6 className="text-info">Bootstrap</h6>
+        <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <h6 className="text-info">Express</h6>
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <h6 className="text-info">Netlify</h6>
+        <SiNetlify />
       </Col>
     </Row>
   );
