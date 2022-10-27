@@ -57,7 +57,7 @@ const Contact = () => {
           <InputField value={values.from_name} handleChange={handleChange} name="from_name" type="text" placeholder="John Doe" />
         <h6 className="text-info">E-Mail</h6>
           <InputField value={values.email} handleChange={handleChange}  name="email" type="email" placeholder="jphn@example.com" />
-        <h6 className="text-info">Role</h6>
+        <h6 className="text-info">Subject</h6>
           <SelectField handleChange={handleChange} name="role"/>
         <h6 className="text-info">Your message here</h6>
           <TextareaField value={values.message} handleChange={handleChange} name="message"/>
