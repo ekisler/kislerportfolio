@@ -5,7 +5,7 @@ const SelectField = (props) => {
     <div className="mb-5">
       <label className="text-gray-500 text-sm" htmlFor={name}>{label}</label>
       <select onChange={handleChange} defaultValue="role" name={name} className="w-full border-b-2 py-2 outline-none">
-        <option className="text-info" value="role" disabled>Choose Role</option>
+        <option value="role" disabled>Choose Role</option>
         <option value="job" className="py-1">Job</option>
         <option value="frontEnd" className="py-1">Front End</option>
         <option value="backEnd" className="py-1">Back End</option>
