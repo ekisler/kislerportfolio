@@ -49,7 +49,7 @@ const Contact = () => {
   }
   return (
     <Container fluid className="contact">
-      <Row style={{ justifyContent: "center", padding: "70px" }}></Row>
+      <Row style={{ justifyContent: "center", padding: "50px" }}></Row>
       {status && renderAlert()}
       <form onSubmit={handleSubmit}>
         <h2 className="text-info">Send me a message</h2>
@@ -69,9 +69,10 @@ const Contact = () => {
 }
 
 const renderAlert = () => (
-  <div className="px-4 py-3 leading-normal text-blue-700 bg-blue-100 rounded mb-5 text-center">
-    <p className="text-info"><h2>¡¡¡Your message submitted successfully!!!</h2></p>
-  </div>
+  
+  <Container fluid className="contact-section" style={{ justifyContent: "center", padding: "150px" }}>
+    <p className="text-info"><h2>¡Your message submitted successfully!</h2></p>
+  </Container>
 )
 
 export default Contact
