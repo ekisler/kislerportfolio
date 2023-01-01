@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="text-info"> C++, Javascript and Python. </b>
+                <b className="text-info">Javascript, React, Node.js, Express, HTML, CSS, Git, GitHub, JWT, Auth0, Sequelize, MongoDB, Vercel, Netlify. </b>
               </i>
               <br />
               <br />

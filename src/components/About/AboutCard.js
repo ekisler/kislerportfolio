@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Emisael Kisler </span>
             from <span className="purple"> Caracas, Venezuela.</span>
-            <br />I am a entusaist in Maths and Computing.
+            <br />Fullstack Developer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
