@@ -1,0 +1,75 @@
+{
+    "navbar": {
+        "log-in": "Ingresar",
+        "catalogue": "Catálogo",
+        "about-us": "Conócenos",
+        "contact": "Contáctanos",
+        "account": "Cuenta",
+        "profile": "Perfil",
+        "log-out": "Salir",
+        "dashboard": "Administrar",
+        "purchases": "Compras",
+        "admin-products": "Administrar Productos",
+        "more": "Más",
+        "login-register": "Entra/Registrate"
+    },
+
+    "dashboard": {
+        "create-product": "Crear Producto",
+        "select-color": "Seleccione Color",
+        "name": "Nombre",
+        "select-type": "Seleccione Tipo",
+        "select-season": "Seleccione Temporada",
+        "price": "Precio $",
+        "stock-xs": "Existencia 'XS'",
+        "stock-s": "Existencia 'S'",
+        "stock-m": "Existencia 'M'",
+        "stock-l": "Existencia 'L'",
+        "stock-xl": "Existencia 'XL'",
+        "stock-xxl": "Existencia 'XXL'",
+        "load-stock": "Cargar Existencia",
+        "submit": "Enviar",
+        "image-preview-will-appear-here": "¡La vista previa de la imagen aparecerá aquí!"
+    },
+    
+    "footer": {
+        "designed-and-developed-by": "Diseñado y desarrollado por:",
+        "scaneame-team": "El Equipo ScaneaMe"
+    },
+
+    "contact": {
+        "full-name": "Nombre Completo",
+        "e-mail": "Correo Electrónico",
+        "your-message-here": "Tu mensaje aquí",
+        "your-message-was-sent-successfully": "¡Su consulta fue enviada con éxito!",
+        "send-me-a-message": "Enviame un mensaje",
+        "send": "Enviar",
+        "subject": "Asunto"
+    },
+
+    "home": {
+        "hi-there": "¡Hola!",
+        "i-am": "Soy",
+        "let-me": "Permítame",
+        "introduce": "Presentarme:",
+        "myself": "",
+        "i-fell-in-love-with-programming-and-i-have-at-least-learnt": "Me enamoré de la programación y he aprendido ",
+        "something-i-think": "algo, creo...",
+        "I-am-fluent-in-classics-like": "Manejo con fluidez clásicos como: ",
+        "My-field-of-Interest-are-building-new": "Mi campo de interés es la construcción de nuevas",
+        "Web-Technologies-and-Products": "Tecnologías y Productos Web",
+        "and-also-in-areas-related-to":"y también en áreas relacionadas con",
+        "Deep-Learning-and-Natural-Launguage-Processing": "Aprendizaje Profundo y Procesamiento Natural del Lenguaje.",
+        "Whenever-possible-I-apply-my-passion-for-developing-products-with": "Siempre que puedo, aplico mi pasión por desarrollar productos con",
+        "and": "y",
+        "Modern-Javascript-Library-and-Frameworks": "Bibliotecas y librerias de Javascript modernas",
+        "like": "como",
+        "FIND-ME-ON": "Encúentrame en:",
+        "Feel-free-to": "Siéntase libre de",
+        "connect": "conectarse",
+        "with-me": "conmigo",
+        "FullStack-Developer": "Desarrollador FullStack",
+        "open-source-contributor": "Colaborador de Código Abierto"
+    }
+    
+}

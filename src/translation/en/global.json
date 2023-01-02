@@ -1,0 +1,75 @@
+{
+    "navbar": {
+        "log-in": "LogIn",
+        "catalogue": "Catalogue",
+        "about-us": "AboutUs",
+        "contact": "Contact",
+        "account": "Account",
+        "profile": "Profile",
+        "log-out": "LogOut",
+        "dashboard": "Dashboard",
+        "purchases": "Purchases",
+        "admin-products": "Admin Products",
+        "more": "More",
+        "login-register": "Login/Register"
+    },
+
+    "dashboard": {
+        "create-product": "Create a Product",
+        "select-color": "Select Color",
+        "name": "Name",
+        "select-type": "Select Type",
+        "select-season": "Select Season",
+        "price": "Price $",
+        "stock-xs": "Stock 'XS'",
+        "stock-s": "Stock 'S'",
+        "stock-m": "Stock 'M'",
+        "stock-l": "Stock 'L'",
+        "stock-xl": "Stock 'XL'",
+        "stock-xxl": "Stock 'XXL'",
+        "load-stock": "Load Stock",
+        "submit": "Submit",
+        "image-preview-will-appear-here": "Image preview will appear here!"
+    },
+
+    "footer": {
+        "designed-and-developed-by": "Designed and Developed by:",
+        "scaneame-team": "ScaneaMe Team"
+    },
+
+    "contact": {
+        "full-name": "Full Name",
+        "e-mail": "E-Mail",
+        "your-message-here": "Your Message Here",
+        "your-message-was-sent-successfully": "Your message was sent successfully!",
+        "send-me-a-message": "Send me a message",
+        "send": "Send",
+        "subject": "Subject"
+    },
+
+    "home": {
+        "hi-there": "Hi There!",
+        "i-am": "I'M",
+        "let-me": "LET ME",
+        "introduce": "INTRODUCE",
+        "myself": "MYSELF:",
+        "i-fell-in-love-with-programming-and-i-have-at-least-learnt": "I fell in love with programming and I have at least learnt ",
+        "something-i-think": "something, I think…",
+        "I-am-fluent-in-classics-like": "I am fluent in classics like: ",
+        "My-field-of-Interest-are-building-new": "My field of Interest's are building new",
+        "Web-Technologies-and-Products": "Web Technologies and Products",
+        "and-also-in-areas-related-to": "and also in areas related to",
+        "Deep-Learning-and-Natural-Launguage-Processing": "Deep Learning and Natural Launguage Processing.",
+        "Whenever-possible-I-apply-my-passion-for-developing-products-with": "Whenever possible, I apply my passion for developing products with",
+        "and": "and",
+        "Modern-Javascript-Library-and-Frameworks": "Modern Javascript Library and Frameworks",
+        "like": "like",
+        "FIND-ME-ON": "FIND ME ON",
+        "Feel-free-to": "Feel free to",
+        "connect": "connect",
+        "with-me": "with me",
+        "FullStack-Developer": "FullStack Developer",
+        "open-source-contributor": "Open Source Contributor"
+    }
+    
+}
