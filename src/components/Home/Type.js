@@ -1,14 +1,16 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
+import i18n from '../../i18n'
+
 function Type() {
   return (
     <Typewriter
       options={{
         strings: [
-          "FullStack Developer",
+          i18n.t('home.FullStack-Developer'),
           "Javascript | React | Node",
-          "Open Source Contributor",
+          i18n.t('home.open-source-contributor'),
         ],
         autoStart: true,
         loop: true,
