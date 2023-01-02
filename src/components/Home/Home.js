@@ -2,26 +2,34 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
+import { Button } from 'react-bootstrap';
 import Home2 from "./Home2";
 import Type from "./Type";
 
+import i18n from '../../i18n'
+
 function Home() {
   return (
+  <div>
+    <div className="home-button">
+      <Button variant="dark" size="sm" href="/home/?lng=es">ES</Button>
+      <Button variant="dark" size="sm" href="/home/?lng=en">EN</Button>
+    </div>
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
-        <Container className="home-content">
+        <Container className="home-content">         
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+              {i18n.t('home.hi-there')}{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
+              {i18n.t('home.i-am')}
                 <strong className="text-info"> EMISAEL KISLER</strong>
               </h1>
 
@@ -43,6 +51,8 @@ function Home() {
       </Container>
       <Home2 />
     </section>
+  </div>
+
   );
 }
 

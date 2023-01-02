@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import i18n from '../../i18n'
 
 function Home2() {
   return (
@@ -16,39 +17,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="text-info"> INTRODUCE </span> MYSELF
+            {i18n.t('home.let-me')} <span className="text-info"> {i18n.t('home.introduce')} </span> {i18n.t('home.myself')}
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            {i18n.t('home.i-fell-in-love-with-programming-and-i-have-at-least-learnt')}
+            {i18n.t('home.something-i-think')} 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />{i18n.t('home.I-am-fluent-in-classics-like')}
               <i>
                 <b className="text-info">Javascript, React, Node.js, Express, HTML, CSS, Git, GitHub, JWT, Auth0, Sequelize, MongoDB, Vercel, Netlify. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              {i18n.t('home.My-field-of-Interest-are-building-new')} &nbsp;
               <i>
-                <b className="text-info">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="text-info">{i18n.t('home.Web-Technologies-and-Products')} </b> {i18n.t('home.and-also-in-areas-related-to')}{" "}
                 <b className="text-info">
-                  Deep Learning and Natural Launguage Processing.
+                {i18n.t('home.Deep-Learning-and-Natural-Launguage-Processing')}
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="text-info">Node.js</b> and
+              {i18n.t('home.Whenever-possible-I-apply-my-passion-for-developing-products-with')}
+               <b className="text-info"> Node.js</b> {i18n.t('home.and')}
               <i>
                 <b className="text-info">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  {i18n.t('home.Modern-Javascript-Library-and-Frameworks')}
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; {i18n.t('home.like')}
               <i>
-                <b className="text-info"> React.js and Redux.js</b>
+                <b className="text-info"> React.js {i18n.t('home.and')} Redux.js</b>
               </i>
             </p>
           </Col>
@@ -60,9 +60,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>{i18n.t('home.FIND-ME-ON')}</h1>
             <p>
-              Feel free to <span className="text-info">connect </span>with me
+            {i18n.t('home.Feel-free-to')} <span className="text-info">{i18n.t('home.connect')} </span>{i18n.t('home.with-me')}
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
