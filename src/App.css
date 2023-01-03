@@ -7,8 +7,20 @@
   pointer-events: none;
 }
 
-.home-button{
-  margin-top: 4.5rem;
+.home-button {
+  margin-top: 4.8rem;
+  margin-left: -0.5%;
+  position: fixed;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.about-button {
+  margin-top: -4.5rem;
+  margin-left: -1.4%;
+  position: fixed;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 @media (prefers-reduced-motion: no-preference) {
