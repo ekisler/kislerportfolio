@@ -16,6 +16,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import i18n from '../i18n'
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -65,7 +66,7 @@ function NavBar() {
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <AiOutlineUser style={{ marginBottom: "2px", fontSize: "12px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px", fontSize: "12px" }} /> {i18n.t('navbar.about')}
               </Nav.Link>
             </Nav.Item>
 
@@ -83,7 +84,7 @@ function NavBar() {
                 as={Link}
                 to="/contact"
                 onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <AiOutlineContacts style={{ marginBottom: "2px", fontSize: "12px" }} /> Contact me
+                <AiOutlineContacts style={{ marginBottom: "2px", fontSize: "12px" }} /> {i18n.t('navbar.contact')}
               </Nav.Link>
             </Nav.Item>
 
@@ -111,7 +112,8 @@ function NavBar() {
               <Button
                 href="https://github.com/ekisler/kislerportfolio"
                 target="_blank"
-                className="fork-btn-inner bg-primary"
+                className="fork-btn-inner"
+                variant="primary"
               >
                 <CgGitFork style={{ fontSize: "1em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1em" }} />
