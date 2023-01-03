@@ -12,8 +12,9 @@ function Home() {
   return (
   <div>
     <div className="home-button">
-      <Button variant="dark" size="sm" href="/home/?lng=es">ES</Button>
-      <Button variant="dark" size="sm" href="/home/?lng=en">EN</Button>
+      <Button variant="primary" size="sm" href="/home/?lng=es">ES</Button>
+      <br/><br/>
+      <Button variant="primary" size="sm" href="/home/?lng=en">EN</Button>
     </div>
     <section>
       <Container fluid className="home-section" id="home">
