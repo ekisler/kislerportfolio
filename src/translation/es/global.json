@@ -3,7 +3,7 @@
         "log-in": "Ingresar",
         "catalogue": "Catálogo",
         "about-us": "Conócenos",
-        "contact": "Contáctanos",
+        "contact": "Contáctame",
         "account": "Cuenta",
         "profile": "Perfil",
         "log-out": "Salir",
@@ -11,7 +11,8 @@
         "purchases": "Compras",
         "admin-products": "Administrar Productos",
         "more": "Más",
-        "login-register": "Entra/Registrate"
+        "login-register": "Entra/Registrate",
+        "about": "Conoceme"
     },
 
     "dashboard": {
@@ -70,6 +71,23 @@
         "with-me": "conmigo",
         "FullStack-Developer": "Desarrollador FullStack",
         "open-source-contributor": "Colaborador de Código Abierto"
+    },
+    "about": {
+        "know-Who": "Conoce quien",
+        "i-am": "Soy",
+        "hi-everyone-i-am": "Hola a todos, soy",
+        "from": "de",
+        "apart-from-coding-some-other-activities-that-i-love-to- do": "Además de programar, algunas otras actividades que me ¡encantan hacer!",
+        "playing-chess": "Jugar Ajedrez (Nivel maestro)",
+        "read-about-tech-news": "Leer noticias sobre tecnología",
+        "trekking": "Senderismo",
+        "committed-to-constantly-learning-and-growing": "'Comprometido a aprender y crecer constantemente'",
+        "professional": "Conjunto de habilidades",
+        "skillset": "Profesionales",
+        "tools": "Herramientas",
+        "use": "que uso",
+        "days-i": "Días que hago",
+        "code": "código"
     }
     
 }

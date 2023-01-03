@@ -3,7 +3,7 @@
         "log-in": "LogIn",
         "catalogue": "Catalogue",
         "about-us": "AboutUs",
-        "contact": "Contact",
+        "contact": "ContactMe",
         "account": "Account",
         "profile": "Profile",
         "log-out": "LogOut",
@@ -11,7 +11,8 @@
         "purchases": "Purchases",
         "admin-products": "Admin Products",
         "more": "More",
-        "login-register": "Login/Register"
+        "login-register": "Login/Register",
+        "about": "AboutMe"
     },
 
     "dashboard": {
@@ -69,7 +70,24 @@
         "connect": "connect",
         "with-me": "with me",
         "FullStack-Developer": "FullStack Developer",
-        "open-source-contributor": "Open Source Contributor"
+        "open-source-contributor": "Open Source Contributor" 
+    },
+    "about": {
+        "know-Who": "Know Who",
+        "i-am": "I'M",
+        "hi-everyone-i-am": "Hi Everyone, I am",
+        "from": "from",
+        "apart-from-coding-some-other-activities-that-i-love-to- do": "Apart from coding, some other activities that I love to do!",
+        "playing-chess": "Playing Chess (Master level)",
+        "read-about-tech-news": "Read about Tech News",
+        "trekking": "Trekking",
+        "committed-to-constantly-learning-and-growing": "Committed to constantly learning and growing!",
+        "professional": "Professional",
+        "skillset": "Skillset",
+        "tools": "Tools",
+        "use": "I use",
+        "days-i": "Days I",
+        "code": "code"
     }
     
 }
