@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import i18n from '../../i18n'
 
 function AboutCard() {
   return (
@@ -8,27 +9,27 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Emisael Kisler </span>
-            from <span className="purple"> Caracas, Venezuela.</span>
-            <br />Fullstack Developer.
+          {i18n.t('about.hi-everyone-i-am')} <span className="purple">Emisael Kisler </span>
+          {i18n.t('about.from')} <span className="purple"> Caracas, Venezuela.</span>
+            <br />{i18n.t('home.FullStack-Developer')}.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            {i18n.t('about.apart-from-coding-some-other-activities-that-i-love-to- do')}
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Chess
+              <ImPointRight /> {i18n.t('about.playing-chess')}
             </li>
             <li className="about-activity">
-              <ImPointRight /> Read about Tech News
+              <ImPointRight /> {i18n.t('about.read-about-tech-news')}
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> {i18n.t('about.trekking')}
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Committed to constantly learning and growing!"{" "}
+          {i18n.t('about.committed-to-constantly-learning-and-growing')}{" "}
           </p>
           <footer className="blockquote-footer">eKisler</footer>
         </blockquote>

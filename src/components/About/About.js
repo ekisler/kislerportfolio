@@ -6,10 +6,19 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import { Button } from 'react-bootstrap';
+import i18n from '../../i18n'
 
 function About() {
   return (
+    <div>
+    
     <Container fluid className="about-section">
+      <div className="about-button">
+      <Button variant="primary" size="sm" href="/about/?lng=es">ES</Button>
+      <br/><br/>
+      <Button variant="primary" size="sm" href="/about/?lng=en">EN</Button>
+    </div>
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -22,7 +31,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="green">I'M</strong>
+            {i18n.t('about.know-Who')} <strong className="green">{i18n.t('about.i-am')}</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,19 +44,20 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        {i18n.t('about.professional')} <strong className="purple">{i18n.t('about.skillset')} </strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">{i18n.t('about.tools')}</strong> {i18n.t('about.use')}
         </h1>
         <Toolstack />
 
         <Github />
       </Container>
     </Container>
+    </div>
   );
 }
 
