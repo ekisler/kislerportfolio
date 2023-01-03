@@ -4,6 +4,7 @@ import { Row, Container } from "react-bootstrap";
 import InputField from "./InputField"
 import SelectField from "./SelectField";
 import TextareaField from "./TextareaField";
+import { Button } from 'react-bootstrap';
 
 import emailjs from 'emailjs-com';
 
@@ -48,6 +49,11 @@ const Contact = () => {
     }))
   }
   return (
+    <div>
+    <div className="home-button">
+      <Button variant="primary" size="sm" href="/contact/?lng=es">ES</Button>
+      <Button variant="primary" size="sm" href="/contact/?lng=en">EN</Button>
+    </div>
     <Container fluid className="contact">
       <Row style={{ justifyContent: "center", padding: "50px" }}></Row>
       {status && renderAlert()}
@@ -65,6 +71,7 @@ const Contact = () => {
       </form>
       <Particle />
     </Container>
+    </div>
   )
 }
 
