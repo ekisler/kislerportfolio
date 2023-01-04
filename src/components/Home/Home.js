@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import { Button } from 'react-bootstrap';
-import Home2 from "./Home2";
 import Type from "./Type";
 
 import i18n from '../../i18n'
@@ -50,7 +49,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
     </section>
   </div>
 
