@@ -12,7 +12,8 @@
         "admin-products": "Administrar Productos",
         "more": "Más",
         "login-register": "Entra/Registrate",
-        "about": "Conoceme"
+        "about": "Conoceme",
+        "projects": "Proyectos"
     },
 
     "dashboard": {
@@ -88,6 +89,20 @@
         "use": "que uso",
         "days-i": "Días que hago",
         "code": "código"
+    },
+    "projects": {
+        "my-recent": "Mis más recientes",
+        "works": "Trabajos",
+        "here-are-a-few-projects-i-ve-worked-on-recently": "Aquí hay algunos proyectos en los que he trabajado recientemente.",
+        "api-for-clothing-sales-where-you-can-see-create-edit-and-delete-products-payment-gateway-and-image-management": "API para venta de indumentaria donde puedes ver, crear, editar y eliminar productos, con pasarela de pago y gestión de imágenes",
+        "api-to-search-the-Pokemons-from-pokeapi-co-where-you-can-create-edit-delete-and-combine-your-pokemons-with-the-ones-from-pokeapi-co": "API para buscar los pokemons de pokeapi.co, donde puedes crear, editar, eliminar y combinar tus pokemons con los de pokeapi.co.",
+        "Api-Movie-the-api-to-search-for-information-on-your-favorite-movie-Director-actors-year-of-creation-and-much-more-Find-the-movie-you-like-the-most-and-download-all-the-information-you-want": "Api-Movie, la api para buscar información sobre tu película favorita. Director, actores año de creación y mucho más. Encuentra la película que más te gusta y descarga toda la información que quieras.",
+        "Modern-portfolio-made-in-React-Node-js-express-to-make-the-best-presentation-to-potential-employers-Good-presence-is-important":"Portafolio moderno hecho en React, Node.js, express, para hacer la mejor presentación a potenciales empleadores. ¡La buena presencia es importante!",
+        "Now-you-can-write-your-goals-and-take-them-wherever-you-want-with-this-simple-app-you-can-register-and-write-your-goals-you-can-open-them-from-your-cell-phone-tablet-or-PC-Read-them-and-remember-them-wherever-you-are": "Ahora puedes escribir tus metas y llevarlas a donde quieras, con esta sencilla app puedes registrarte y escribir tus metas, las puedes abrir desde tu celular, tablet o Pc. Léelas y recuérdalas estés donde estés.",
+        "Responsive-Web-with-HTML-CSS-and-FlexBox": "Web responsive hecha con HTML, CSS y FlexBox",
+        "We-design-the-menu-for-your-cafe-ice-cream-parlor-bar-restaurant-whatever-you-need-we-adapt-to-your-requirement-We-are-ready-to-meet-your-request-whenever-you-want-from-something-simple-to-the-most-complex-We-re-at-your-ervice": "Diseñamos el menú para tu cafetería, heladería, bar, restaurante, lo que necesites, nos adaptamos a tu requerimiento. Estamos listos para atender su solicitud cuando lo desee, desde algo simple hasta lo más complejo. ¡Estamos a tu servicio!",
+        "Portfolio-Made-in-HTML-CSS-and-JavaScript": "Portafolio construido en HTML, CSS y Javascript",
+        "Portfolio-made-in-HTML-CSS-and-JavaScript-it-is-important-to-have-all-the-projects-carried-out-as-a-web-developer-in-one-place-so-that-future-employers-can-see-them-and-value-your-work-Every-sowing-bears-fruit": "Portafolio realizado en HTML, CSS y JavaScript, es importante tener todos los proyectos realizados como desarrollador web en un solo lugar, para que los futuros empleadores puedan verlos y valorar tu trabajo. ¡Toda siembra da fruto!"
     }
     
 }
