@@ -75,7 +75,7 @@ function NavBar() {
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px", fontSize: "12px" }} /> Projects
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px", fontSize: "12px" }} /> {i18n.t('navbar.projects')}
               </Nav.Link>
             </Nav.Item>
 

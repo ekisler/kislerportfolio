@@ -11,39 +11,49 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import respon from "../../Assets/Projects/respon.png";
 import nutri from "../../Assets/Projects/nutri.png";
 import gallery from "../../Assets/Projects/gallery.png"
+import scane from "../../Assets/Projects/scane.png"
+import { Button } from 'react-bootstrap';
+
+import i18n from '../../i18n'
 
 function Projects() {
   return (
+    <div>
+      
     <Container fluid className="project-section">
+      <div className="about-button">
+        <Button variant="primary" size="sm" href="/project/?lng=es">ES</Button>
+        <br/><br/>
+        <Button variant="primary" size="sm" href="/project/?lng=en">EN</Button>
+      </div>
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="text-info">Works </strong>
+        {i18n.t('projects.my-recent')} <strong className="text-info">{i18n.t('projects.works')} </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        {i18n.t('projects.here-are-a-few-projects-i-ve-worked-on-recently')}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={scane}
               isBlog={false}
-              title="Poke-Api"
-              description="API to search the Pokemons from pokeapi.co, where you can create, edit, delete and combine your pokemons with the ones
-              from pokeapi.co."
-              ghLink="https://github.com/ekisler/PI-Pokemon"
-              demoLink="https://kisler-poke.vercel.app/"
+              title="ScaneaMe"
+              description={i18n.t('projects.api-for-clothing-sales-where-you-can-see-create-edit-and-delete-products-payment-gateway-and-image-management')}
+              ghLink="https://github.com/ekisler/scaneame"
+              demoLink="https://scaneame.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chatify}
               isBlog={false}
-              title="Api-Movie"
-              description="Api-Movie, the api to search for information on your favorite movie. Director, actors year of creation and much more. Find the movie you like the most and download all the information you want."
-              ghLink="https://github.com/ekisler/apimovie.github.io"
-              demoLink="https://ekisler/apimovie.github.io"
+              title="Poke-Api"
+              description={i18n.t('projects.api-to-search-the-Pokemons-from-pokeapi-co-where-you-can-create-edit-delete-and-combine-your-pokemons-with-the-ones-from-pokeapi-co')}
+              ghLink="https://github.com/ekisler/PI-Pokemon"
+              demoLink="https://kisler-poke.vercel.app/"
             />
           </Col>
 
@@ -52,9 +62,20 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="React Portfolio"
-              description="Modern portfolio made in React, Node.js, express, to make the best presentation to potential employers. Good presence is important!"
+              description={i18n.t('projects.Modern-portfolio-made-in-React-Node-js-express-to-make-the-best-presentation-to-potential-employers-Good-presence-is-important')}
               ghLink="https://github.com/ekisler/portfolio"
               demoLink="https://kisler-portfolio.netlify.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Api-Movie"
+              description={i18n.t('projects.Api-Movie-the-api-to-search-for-information-on-your-favorite-movie-Director-actors-year-of-creation-and-much-more-Find-the-movie-you-like-the-most-and-download-all-the-information-you-want')}
+              ghLink="https://github.com/ekisler/apimovie.github.io"
+              demoLink="https://ekisler.github.io/apimovie.github.io/"
             />
           </Col>
 
@@ -63,7 +84,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="React Goal"
-              description="Now you can write your goals and take them wherever you want, with this simple app you can register and write your goals, you can open them from your cell phone, tablet or PC. Read them and remember them wherever you are."
+              description={i18n.t('projects.Now-you-can-write-your-goals-and-take-them-wherever-you-want-with-this-simple-app-you-can-register-and-write-your-goals-you-can-open-them-from-your-cell-phone-tablet-or-PC-Read-them-and-remember-them-wherever-you-are')}
               ghLink="https://github.com/ekisler/newmern"
               demoLink="https://kisler-mern.herokuapp.com/login/"
             />
@@ -74,7 +95,7 @@ function Projects() {
               imgPath={respon}
               isBlog={false}
               title="Responsive"
-              description="Responsive Web with HTML, CSS, and FlexBox"
+              description={i18n.t('projects.Responsive-Web-with-HTML-CSS-and-FlexBox')}
               ghLink="https://github.com/ekisler/responsive.github.io"
               demoLink="https://ekisler.github.io/responsive.github.io/"
             />
@@ -85,7 +106,7 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Cafe-Menu"
-              description="We design the menu for your cafe, ice cream parlor, bar, restaurant, whatever you need, we adapt to your requirement. We are ready to meet your request whenever you want, from something simple to the most complex. We're at your service!."
+              description={i18n.t('projects.We-design-the-menu-for-your-cafe-ice-cream-parlor-bar-restaurant-whatever-you-need-we-adapt-to-your-requirement-We-are-ready-to-meet-your-request-whenever-you-want-from-something-simple-to-the-most-complex-We-re-at-your-ervice')}
               ghLink="https://github.com/ekisler/menucafe.github.io"
               demoLink="https://ekisler.github.io/menucafe.github.io/"
             />
@@ -95,9 +116,8 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Portfolio Made in HTML, CSS, and JavaScript"
-              description="
-              Portfolio made in HTML, CSS and JavaScript, it is important to have all the projects carried out as a web developer in one place, so that future employers can see them and value your work. Every sowing bears fruit!"
+              title={i18n.t('projects.Portfolio-Made-in-HTML-CSS-and-JavaScript')}
+              description={i18n.t('projects.Portfolio-made-in-HTML-CSS-and-JavaScript-it-is-important-to-have-all-the-projects-carried-out-as-a-web-developer-in-one-place-so-that-future-employers-can-see-them-and-value-your-work-Every-sowing-bears-fruit')}
               ghLink="https://github.com/ekisler/ekisler.github.io"
               demoLink="https://ekisler.github.io/"
             />
@@ -127,6 +147,7 @@ function Projects() {
         </Row>
       </Container>
     </Container>
+    </div>
   );
 }
 
