@@ -20,13 +20,12 @@ import i18n from '../../i18n'
 function About() {
   return (
     <div>
-    
     <Container fluid className="about-section">
       <div className="about-button">
-      <Button variant="primary" size="sm" href="/about/?lng=es">ES</Button>
-      <br/><br/>
-      <Button variant="primary" size="sm" href="/about/?lng=en">EN</Button>
-    </div>
+        <Button variant="primary" size="sm" href="/about/?lng=es">ES</Button>
+        <br/><br/>
+        <Button variant="primary" size="sm" href="/about/?lng=en">EN</Button>
+      </div>
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
