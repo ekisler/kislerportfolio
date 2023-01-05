@@ -13,7 +13,8 @@
         "more": "More",
         "login-register": "Login/Register",
         "about": "AboutMe",
-        "projects": "Projects"
+        "projects": "Projects",
+        "resume": "Resume"
     },
 
     "dashboard": {

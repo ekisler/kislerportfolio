@@ -93,7 +93,7 @@ function NavBar() {
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <CgFileDocument style={{ marginBottom: "2px", fontSize: "12px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px", fontSize: "12px" }} /> {i18n.t('navbar.resume')}
               </Nav.Link>
             </Nav.Item>
 
