@@ -43,10 +43,13 @@
         "full-name": "Nombre Completo",
         "e-mail": "Correo Electrónico",
         "your-message-here": "Tu mensaje aquí",
-        "your-message-was-sent-successfully": "¡Su consulta fue enviada con éxito!",
+        "your-message-was-sent-successfully": "¡Su mensaje fue enviado con éxito!",
         "send-me-a-message": "Enviame un mensaje",
         "send": "Enviar",
-        "subject": "Asunto"
+        "subject": "Asunto",
+        "choose-role": "Elegir Tema",
+        "job": "Empleo",
+        "other": "Otro"
     },
 
     "home": {
@@ -103,6 +106,9 @@
         "We-design-the-menu-for-your-cafe-ice-cream-parlor-bar-restaurant-whatever-you-need-we-adapt-to-your-requirement-We-are-ready-to-meet-your-request-whenever-you-want-from-something-simple-to-the-most-complex-We-re-at-your-ervice": "Diseñamos el menú para tu cafetería, heladería, bar, restaurante, lo que necesites, nos adaptamos a tu requerimiento. Estamos listos para atender su solicitud cuando lo desee, desde algo simple hasta lo más complejo. ¡Estamos a tu servicio!",
         "Portfolio-Made-in-HTML-CSS-and-JavaScript": "Portafolio construido en HTML, CSS y Javascript",
         "Portfolio-made-in-HTML-CSS-and-JavaScript-it-is-important-to-have-all-the-projects-carried-out-as-a-web-developer-in-one-place-so-that-future-employers-can-see-them-and-value-your-work-Every-sowing-bears-fruit": "Portafolio realizado en HTML, CSS y JavaScript, es importante tener todos los proyectos realizados como desarrollador web en un solo lugar, para que los futuros empleadores puedan verlos y valorar tu trabajo. ¡Toda siembra da fruto!"
+    },
+    "resume": {
+        "download": "Descarga CV"
     }
     
 }

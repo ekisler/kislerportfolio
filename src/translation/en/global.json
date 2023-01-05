@@ -46,7 +46,10 @@
         "your-message-was-sent-successfully": "Your message was sent successfully!",
         "send-me-a-message": "Send me a message",
         "send": "Send",
-        "subject": "Subject"
+        "subject": "Subject",
+        "choose-role": "Choose Role",
+        "job": "Job",
+        "other": "Other"
     },
 
     "home": {
@@ -103,6 +106,9 @@
         "We-design-the-menu-for-your-cafe-ice-cream-parlor-bar-restaurant-whatever-you-need-we-adapt-to-your-requirement-We-are-ready-to-meet-your-request-whenever-you-want-from-something-simple-to-the-most-complex-We-re-at-your-ervice": "We design the menu for your cafe, ice cream parlor, bar, restaurant, whatever you need, we adapt to your requirement. We are ready to meet your request whenever you want, from something simple to the most complex. We're at your service!.",
         "Portfolio-Made-in-HTML-CSS-and-JavaScript": "Portfolio Made in HTML, CSS, and JavaScript",
         "Portfolio-made-in-HTML-CSS-and-JavaScript-it-is-important-to-have-all-the-projects-carried-out-as-a-web-developer-in-one-place-so-that-future-employers-can-see-them-and-value-your-work-Every-sowing-bears-fruit": "Portfolio made in HTML, CSS and JavaScript, it is important to have all the projects carried out as a web developer in one place, so that future employers can see them and value your work. Every sowing bears fruit!"
+    },
+    "resume": {
+        "download": "Download CV"
     }
     
 }
