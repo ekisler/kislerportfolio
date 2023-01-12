@@ -16,6 +16,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { GiMegabot } from "react-icons/gi";
+
 import i18n from '../i18n'
 
 function NavBar() {
@@ -94,6 +96,14 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
                 <CgFileDocument style={{ marginBottom: "2px", fontSize: "12px" }} /> {i18n.t('navbar.resume')}
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link                
+                href="https://chatgpt-ek.vercel.app/"
+                onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
+                <GiMegabot style={{ marginBottom: "2px", fontSize: "24px", color: "rgb(51, 255, 255)" }} /> ChatGPT3
               </Nav.Link>
             </Nav.Item>
 
