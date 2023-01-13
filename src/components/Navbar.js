@@ -18,7 +18,7 @@ import {
 import { CgFileDocument } from "react-icons/cg";
 import { GiMegabot } from "react-icons/gi";
 
-import i18n from '../i18n'
+import i18n from "../i18n";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -58,8 +58,16 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <AiOutlineHome style={{ marginBottom: "2px", fontSize: "12px" }} /> Home
+              <Nav.Link
+                as={Link}
+                to="/"
+                onClick={() => updateExpanded(false)}
+                style={{ fontSize: "14px" }}
+              >
+                <AiOutlineHome
+                  style={{ marginBottom: "2px", fontSize: "12px" }}
+                />{" "}
+                Home
               </Nav.Link>
             </Nav.Item>
 
@@ -67,8 +75,13 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/about"
-                onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <AiOutlineUser style={{ marginBottom: "2px", fontSize: "12px" }} /> {i18n.t('navbar.about')}
+                onClick={() => updateExpanded(false)}
+                style={{ fontSize: "14px" }}
+              >
+                <AiOutlineUser
+                  style={{ marginBottom: "2px", fontSize: "12px" }}
+                />{" "}
+                {i18n.t("navbar.about")}
               </Nav.Link>
             </Nav.Item>
 
@@ -76,8 +89,13 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/project"
-                onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px", fontSize: "12px" }} /> {i18n.t('navbar.projects')}
+                onClick={() => updateExpanded(false)}
+                style={{ fontSize: "14px" }}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px", fontSize: "12px" }}
+                />{" "}
+                {i18n.t("navbar.projects")}
               </Nav.Link>
             </Nav.Item>
 
@@ -85,8 +103,13 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/contact"
-                onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <AiOutlineContacts style={{ marginBottom: "2px", fontSize: "12px" }} /> {i18n.t('navbar.contact')}
+                onClick={() => updateExpanded(false)}
+                style={{ fontSize: "14px" }}
+              >
+                <AiOutlineContacts
+                  style={{ marginBottom: "2px", fontSize: "12px" }}
+                />{" "}
+                {i18n.t("navbar.contact")}
               </Nav.Link>
             </Nav.Item>
 
@@ -94,16 +117,30 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/resume"
-                onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <CgFileDocument style={{ marginBottom: "2px", fontSize: "12px" }} /> {i18n.t('navbar.resume')}
+                onClick={() => updateExpanded(false)}
+                style={{ fontSize: "14px" }}
+              >
+                <CgFileDocument
+                  style={{ marginBottom: "2px", fontSize: "12px" }}
+                />{" "}
+                {i18n.t("navbar.resume")}
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link                
+              <Nav.Link
                 href="https://chatgpt-ek.vercel.app/"
-                onClick={() => updateExpanded(false)} style={{ fontSize: "14px" }}>
-                <GiMegabot style={{ marginBottom: "2px", fontSize: "24px", color: "rgb(51, 255, 255)" }} /> ChatGPT3
+                onClick={() => updateExpanded(false)}
+                style={{ fontSize: "14px" }}
+              >
+                <GiMegabot
+                  style={{
+                    marginBottom: "2px",
+                    fontSize: "24px",
+                    color: "rgb(51, 255, 255)",
+                  }}
+                />{" "}
+                ChatGPT3
               </Nav.Link>
             </Nav.Item>
 
@@ -114,7 +151,8 @@ function NavBar() {
                 rel="noreferrer"
                 style={{ fontSize: "14px" }}
               >
-                <ImBlog style={{ marginBottom: "2px", fontSize: "12px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px", fontSize: "12px" }} />{" "}
+                Blogs
               </Nav.Link>
             </Nav.Item>
 

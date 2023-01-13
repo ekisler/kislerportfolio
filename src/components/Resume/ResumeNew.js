@@ -6,7 +6,7 @@ import pdf from "../../Assets/Emisael_Kisler.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import i18n from '../../i18n'
+import i18n from "../../i18n";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -32,16 +32,20 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;{i18n.t('resume.download')}
+            &nbsp;{i18n.t("resume.download")}
           </Button>
         </Row>
 
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
-            <div><Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} /></div>
+            <div>
+              <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            </div>
           </Document>
           <Document file={resumeLink} className="d-flex justify-content-center">
-            <div><Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} /></div>
+            <div>
+              <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+            </div>
           </Document>
         </Row>
 
@@ -53,7 +57,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;{i18n.t('resume.download')}
+            &nbsp;{i18n.t("resume.download")}
           </Button>
         </Row>
       </Container>

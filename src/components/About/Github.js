@@ -1,13 +1,14 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
-import i18n from '../../i18n'
+import i18n from "../../i18n";
 
 function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-      {i18n.t('about.days-i')} <strong className="text-info">{i18n.t('about.code')}</strong>
+        {i18n.t("about.days-i")}{" "}
+        <strong className="text-info">{i18n.t("about.code")}</strong>
       </h1>
       <GitHubCalendar
         username="ekisler"

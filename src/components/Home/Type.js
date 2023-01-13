@@ -4,19 +4,18 @@ import Typewriter from "typewriter-effect";
 import i18n from "../../i18n";
 
 function Type() {
-  return ( <
-    Typewriter options = {
-      {
+  return (
+    <Typewriter
+      options={{
         strings: [
-          i18n.t('home.FullStack-Developer'),
+          i18n.t("home.FullStack-Developer"),
           "Javascript | React | Node",
-          i18n.t('home.open-source-contributor'),
+          i18n.t("home.open-source-contributor"),
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
-      }
-    }
+      }}
     />
   );
 }

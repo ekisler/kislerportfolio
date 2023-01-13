@@ -1,9 +1,9 @@
-import i18n from "i18next"
-import LanguageDetector from "i18next-browser-languagedetector"
+import i18n from "i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 
 // ruta a los archivos de idiomas
-import common_es from "../src/translation/es/global.json"
-import common_en from "../src/translation/en/global.json"
+import common_es from "../src/translation/es/global.json";
+import common_en from "../src/translation/en/global.json";
 
 i18n.use(LanguageDetector).init({
   fallbackLng: "es",
@@ -26,5 +26,5 @@ i18n.use(LanguageDetector).init({
       translation: common_en,
     },
   },
-})
-export default i18n
+});
+export default i18n;
