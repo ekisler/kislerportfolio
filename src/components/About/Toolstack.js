@@ -16,11 +16,16 @@ import {
   SiBootstrap,
   SiExpress,
   SiNetlify,
+  SiOpenai,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <h6 className="text-info">OpenAI</h6>
+        <SiOpenai />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <h6 className="text-info">Linux</h6>
         <SiLinux />
