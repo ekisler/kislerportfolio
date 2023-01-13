@@ -12,6 +12,7 @@ import respon from "../../Assets/Projects/respon.png";
 import nutri from "../../Assets/Projects/nutri.png";
 import gallery from "../../Assets/Projects/gallery.png"
 import scane from "../../Assets/Projects/scane.png"
+import chat from "../../Assets/Projects/chat.png"
 import { Button } from 'react-bootstrap';
 
 import i18n from '../../i18n'
@@ -19,7 +20,6 @@ import i18n from '../../i18n'
 function Projects() {
   return (
     <div>
-      
     <Container fluid className="project-section">
       <div className="about-button">
         <Button variant="primary" size="sm" href="/project/?lng=es">ES</Button>
@@ -35,6 +35,17 @@ function Projects() {
         {i18n.t('projects.here-are-a-few-projects-i-ve-worked-on-recently')}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chat}
+              isBlog={false}
+              title="ChatGPT3"
+              description="Pregunta a la Inteligencia Artifical de OpenAI y te respondera de inmediato. Sin registrarte, solo entras y comienzas a interactuar con AI"
+              ghLink="https://github.com/ekisler/chatgpt"
+              demoLink="https://chatgpt-ek.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={scane}
