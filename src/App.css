@@ -15,6 +15,76 @@
   word-wrap: break-word;
 }
 
+.dark .footer-a {
+  color: rgb(2, 217, 255);
+}
+.dark .footer h3 {
+  font-size: 1em;
+  color: rgb(179, 179, 179) !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.dark .boton-languaje {
+  color: rgb(0, 0, 0)!important;
+  font-weight: 900;
+}
+.dark .navbar-nav .nav-link {
+  color: rgb(228, 222, 222) !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.dark .home-section {
+  position: relative;
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/fond.jpg);
+  background-position: top center;
+  background-repeat: not-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 0px !important;
+}
+.dark .about-section {
+  background-color: white;
+}
+.dark .project-section {
+  background-color: white;
+}
+.dark .contact-section {
+  background-color: rgba(153, 153, 153, 0.74);
+}
+.dark .resume-section {
+  background-color: white;
+}
+.dark body {
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+.dark .Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #1310d8 !important;
+}
+
+.dark .Typewriter__wrapper {
+  font-size: 2.2em !important;
+  color: #272742 !important;
+  font-weight: 600 !important;
+}
+.dark .text-info {
+  color: #272742 !important;
+}
+.dark .about-lema {   
+  color: #272742 !important;
+}
+.dark .blockquote-footer {   
+  color: #272742 !important;
+}
+.dark .project-card-view {   
+  color: #272742 !important;
+}
+
 .about-button {
   margin-top: -4.5rem;
   margin-left: -1.4%;
