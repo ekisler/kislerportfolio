@@ -4,25 +4,25 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import { Button } from "react-bootstrap";
 import Type from "./Type";
-
 import i18n from "../../i18n";
 
 function Home() {
+
   return (
     <div>
       <div className="home-button">
-        <Button variant="primary" size="sm" href="/home/?lng=es">
+        <Button className="boton-languaje" variant="primary" size="sm" href="/home/?lng=es">
           ES
         </Button>
         <br />
         <br />
-        <Button variant="primary" size="sm" href="/home/?lng=en">
+        <Button className="boton-languaje" variant="primary" size="sm" href="/home/?lng=en">
           EN
         </Button>
       </div>
-      <section>
-        <Container fluid className="home-section" id="home">
-          <Particle />
+      <section>  
+          <Container fluid className="home-section" id="home">
+          <Particle /> 
           <Container className="home-content">
             <Row>
               <Col md={7} className="home-header">
