@@ -55,13 +55,14 @@ const Contact = () => {
   };
   return (
     <div>
+    <Container fluid className="contact-section">
       <div className="home-button">
-        <Button variant="primary" size="sm" href="/contact/?lng=es">
+        <Button className="boton-languaje" variant="primary" size="sm" href="/contact/?lng=es">
           ES
         </Button>
         <br />
         <br />
-        <Button variant="primary" size="sm" href="/contact/?lng=en">
+        <Button className="boton-languaje" variant="primary" size="sm" href="/contact/?lng=en">
           EN
         </Button>
       </div>
@@ -99,7 +100,8 @@ const Contact = () => {
           </button>
         </form>
         <Particle />
-      </Container>
+      </Container>   
+      </Container>   
     </div>
   );
 };

@@ -22,12 +22,12 @@ function Projects() {
     <div>
       <Container fluid className="project-section">
         <div className="about-button">
-          <Button variant="primary" size="sm" href="/project/?lng=es">
+          <Button className="boton-languaje" variant="primary" size="sm" href="/project/?lng=es">
             ES
           </Button>
           <br />
           <br />
-          <Button variant="primary" size="sm" href="/project/?lng=en">
+          <Button className="boton-languaje" variant="primary" size="sm" href="/project/?lng=en">
             EN
           </Button>
         </div>
