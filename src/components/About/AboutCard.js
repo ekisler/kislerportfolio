@@ -33,7 +33,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p className="about-lema" style={{ color: "rgb(155 126 172)" }}>
             {i18n.t("about.committed-to-constantly-learning-and-growing")}{" "}
           </p>
           <footer className="blockquote-footer">eKisler</footer>

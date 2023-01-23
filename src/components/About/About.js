@@ -22,12 +22,12 @@ function About() {
     <div>
       <Container fluid className="about-section">
         <div className="about-button">
-          <Button variant="primary" size="sm" href="/about/?lng=es">
+          <Button className="boton-languaje" variant="primary" size="sm" href="/about/?lng=es">
             ES
           </Button>
           <br />
           <br />
-          <Button variant="primary" size="sm" href="/about/?lng=en">
+          <Button className="boton-languaje" variant="primary" size="sm" href="/about/?lng=en">
             EN
           </Button>
         </div>
