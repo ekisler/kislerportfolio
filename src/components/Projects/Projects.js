@@ -13,6 +13,7 @@ import nutri from "../../Assets/Projects/nutri.png";
 import gallery from "../../Assets/Projects/gallery.png";
 import scane from "../../Assets/Projects/scane.png";
 import chat from "../../Assets/Projects/chat.png";
+import darkmode from "../../Assets/Projects/darkmode.png";
 import { Button } from "react-bootstrap";
 
 import i18n from "../../i18n";
@@ -41,6 +42,17 @@ function Projects() {
             {i18n.t("projects.here-are-a-few-projects-i-ve-worked-on-recently")}
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={darkmode}
+                isBlog={false}
+                title="Dark Mode"
+                description="Plantilla en React.js, Redux, HTML, CSS para realizar el Dark Mode en tus proyectos. Usalo como una guia experimental"
+                ghLink="https://github.com/ekisler/ekdarklight"
+                demoLink="https://ekdarklight.netlify.app/"
+              />
+            </Col>
+
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={chat}
