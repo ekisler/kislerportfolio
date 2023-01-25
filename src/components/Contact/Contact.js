@@ -56,7 +56,7 @@ const Contact = () => {
   return (
     <div>
     <Container fluid className="contact-section">
-      <div className="home-button">
+      <div className="contact-button">
         <Button className="boton-languaje" variant="primary" size="sm" href="/contact/?lng=es">
           ES
         </Button>

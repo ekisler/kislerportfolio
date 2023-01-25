@@ -7,14 +7,6 @@
   pointer-events: none;
 }
 
-.home-button {
-  margin-top: 4.8rem;
-  margin-left: -0.5%;
-  position: fixed;
-  text-align: center;
-  word-wrap: break-word;
-}
-
 .dark .footer-a {
   color: rgb(2, 217, 255);
 }
@@ -85,8 +77,24 @@
   color: #272742 !important;
 }
 
+.home-button {
+  margin-top: 4.9rem;
+  margin-left: -0.5%;
+  position: fixed;
+  text-align: center;
+  word-wrap: break-word;
+}
+
 .about-button {
   margin-top: -4.5rem;
+  margin-left: -1.4%;
+  position: fixed;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.contact-button {
+  margin-top: 4.9rem;
   margin-left: -1.4%;
   position: fixed;
   text-align: center;

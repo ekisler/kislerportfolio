@@ -23,12 +23,22 @@ function Projects() {
     <div>
       <Container fluid className="project-section">
         <div className="about-button">
-          <Button className="boton-languaje" variant="primary" size="sm" href="/project/?lng=es">
+          <Button
+            className="boton-languaje"
+            variant="primary"
+            size="sm"
+            href="/project/?lng=es"
+          >
             ES
           </Button>
           <br />
           <br />
-          <Button className="boton-languaje" variant="primary" size="sm" href="/project/?lng=en">
+          <Button
+            className="boton-languaje"
+            variant="primary"
+            size="sm"
+            href="/project/?lng=en"
+          >
             EN
           </Button>
         </div>
@@ -42,11 +52,11 @@ function Projects() {
             {i18n.t("projects.here-are-a-few-projects-i-ve-worked-on-recently")}
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={darkmode}
                 isBlog={false}
-                title="Dark Mode"
+                title="React Dark Mode"
                 description="Plantilla en React.js, Redux, HTML, CSS para realizar el Dark Mode en tus proyectos. Usalo como una guia experimental"
                 ghLink="https://github.com/ekisler/ekdarklight"
                 demoLink="https://ekdarklight.netlify.app/"
