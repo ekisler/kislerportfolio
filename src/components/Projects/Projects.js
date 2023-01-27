@@ -14,6 +14,10 @@ import gallery from "../../Assets/Projects/gallery.png";
 import scane from "../../Assets/Projects/scane.png";
 import chat from "../../Assets/Projects/chat.png";
 import darkmode from "../../Assets/Projects/darkmode.png";
+import form from "../../Assets/Projects/form.png";
+import csscolor from "../../Assets/Projects/csscolor.png";
+import pick from "../../Assets/Projects/pick.png";
+import boton from "../../Assets/Projects/boton.png";
 import { Button } from "react-bootstrap";
 
 import i18n from "../../i18n";
@@ -193,6 +197,17 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
+                imgPath={form}
+                isBlog={false}
+                title="Formularios"
+                description="Diesño de Formularios en HTML, CSS para cualquier usar en cualquier proyecto incluso de React y otras bibliotecas"
+                ghLink="https://github.com/ekisler/form.github.io"
+                demoLink="https://ekisler.github.io/form.github.io/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
                 imgPath={gallery}
                 isBlog={false}
                 title="PhotoGallery"
@@ -201,6 +216,40 @@ function Projects() {
                 demoLink="https://ekisler.github.io/photogallery.github.io/"
               />
             </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={csscolor}
+                isBlog={false}
+                title="CSS Colors Markers"
+                description="CSS Colors Markers, agrega color a tus páginas Web con CSS puro, aquí tienes una muestra de lo que puedes hacer"
+                ghLink="https://github.com/ekisler/css-colors-market.github.io"
+                demoLink="https://ekisler.github.io/css-colors-market.github.io/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={pick}
+                isBlog={false}
+                title="Pick Paleta de Colores"
+                description="Color Pick es una herramienta útil para seleccionar colores de forma rápida y precisa."
+                ghLink=""
+                demoLink="https://kisler-color.netlify.app/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={boton}
+                isBlog={false}
+                title="Botones Animados"
+                description="Crea botones animados con CSS y HTML. Aprende a usar transiciones, transformaciones y animaciones para darles vida a tus botones. ¡Aprende a crear botones animados!"
+                ghLink="https://github.com/ekisler/buttons.github.io"
+                demoLink="https://ekisler.github.io/buttons.github.io/"
+              />
+            </Col>
+
           </Row>
         </Container>
       </Container>
