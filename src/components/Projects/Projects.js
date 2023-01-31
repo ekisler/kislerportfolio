@@ -3,26 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import ProjectCert from "./ProjectCert";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-import respon from "../../Assets/Projects/respon.png";
-import nutri from "../../Assets/Projects/nutri.png";
-import gallery from "../../Assets/Projects/gallery.png";
-import scane from "../../Assets/Projects/scane.png";
-import chat from "../../Assets/Projects/chat.png";
-import darkmode from "../../Assets/Projects/darkmode.png";
-import form from "../../Assets/Projects/form.png";
-import csscolor from "../../Assets/Projects/csscolor.png";
-import pick from "../../Assets/Projects/pick.png";
-import boton from "../../Assets/Projects/boton.png";
-import certif from "../../Assets/Projects/certif.png";
-import certCommand from "../../Assets/Projects/certCommand.png";
-import certHack from "../../Assets/Projects/certHack.png";
-import ekcloud from "../../Assets/Projects/ekcloud.png";
 import { Button } from "react-bootstrap";
 
 import i18n from "../../i18n";
@@ -62,7 +42,7 @@ function Projects() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCert
-                imgPath={certif}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675189918/bw07wvbtoiog3choi8ic.png"
                 isBlog={false}
                 title={i18n.t("projects.soyhenry-certificate")}
                 description={i18n.t(
@@ -74,7 +54,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCert
-                imgPath={certHack}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675190334/kes3wzclknaehythrj2x.png"
                 isBlog={false}
                 title={i18n.t("projects.hackerrank-certificate")}
                 description={i18n.t(
@@ -86,7 +66,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCert
-                imgPath={certCommand}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675190734/g9kubbq7qjdmhwrx08ry.png"
                 isBlog={false}
                 title={i18n.t("projects.codecademy-certificate")}
                 description={i18n.t(
@@ -108,7 +88,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={ekcloud}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192075/t7r5cdu2vazub9u2s7b3.png"
                 isBlog={false}
                 title="EK Cloudinary"
                 description="Sube tus imagenes y vdeos y mantenlas en lugar seguro usando la API de Cloudinary junto a la biblioteca React.js"
@@ -119,7 +99,18 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={darkmode}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675188819/fib0nmv2kkm8irolklud.png"
+                isBlog={false}
+                title="EK Auth0"
+                description="Que tu sitio tenga la mejor autenticación es una idea genial, Usa la Api de Auth0 en tus proyectos React.js"
+                ghLink="https://github.com/ekisler/ek-auth0"
+                demoLink="https://ek-auth0.netlify.app/"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192215/eikhqbxbpt46cdld25bi.png"
                 isBlog={false}
                 title="React Dark Mode"
                 description="Plantilla en React.js, Redux, HTML, CSS para realizar el Dark Mode en tus proyectos. Usalo como una guía experimental"
@@ -130,7 +121,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={chat}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192301/a1qn5u0eopio4os8zfzn.png"
                 isBlog={false}
                 title="ChatGPT3"
                 description="Pregunta a la Inteligencia Artifical de OpenAI y te respondera de inmediato. Sin registrarte, solo entras y comienzas a interactuar con la AI"
@@ -141,7 +132,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={scane}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192378/nnjvp8ayf4ooy243nfy6.png"
                 isBlog={false}
                 title="ScaneaMe"
                 description={i18n.t(
@@ -154,7 +145,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={chatify}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192484/bmzbuq97x36jion1gbts.png"
                 isBlog={false}
                 title="Poke-Api"
                 description={i18n.t(
@@ -167,7 +158,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={editor}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192607/mraytgshxijhn54ky0zj.png"
                 isBlog={false}
                 title="React Portfolio"
                 description={i18n.t(
@@ -180,7 +171,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={bitsOfCode}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192738/zr0l5fgibihmnpudpguu.png"
                 isBlog={false}
                 title="Api-Movie"
                 description={i18n.t(
@@ -193,7 +184,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={leaf}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192873/ygesx1qe7pzey1w7a4rm.png"
                 isBlog={false}
                 title="React Goal"
                 description={i18n.t(
@@ -206,7 +197,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={respon}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192995/v9rk9fam870ff98jycjx.png"
                 isBlog={false}
                 title="Responsive"
                 description={i18n.t(
@@ -219,7 +210,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={suicide}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193142/ekqa18cebuxfqk5gbhbw.png"
                 isBlog={false}
                 title="Cafe-Menu"
                 description={i18n.t(
@@ -232,7 +223,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={emotion}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193219/wwwvfqiuptoq1r4ifpsu.png"
                 isBlog={false}
                 title={i18n.t(
                   "projects.Portfolio-Made-in-HTML-CSS-and-JavaScript"
@@ -247,7 +238,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={nutri}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193305/edclwvzijpfcuamum236.png"
                 isBlog={false}
                 title="Sticker Nutri Farm"
                 description="Sticker Nutri Farm"
@@ -258,7 +249,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={form}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193369/fucggyxqqaoyzwgikkct.png"
                 isBlog={false}
                 title="Formularios"
                 description="Diesño de Formularios en HTML, CSS para cualquier uso en cualquier proyecto incluso de React y otras bibliotecas"
@@ -269,7 +260,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={gallery}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193443/uncxsl9aroijtosphjv9.png"
                 isBlog={false}
                 title="PhotoGallery"
                 description="Galeria de fotos realizado en HTML y CSS, ejemplo sencillo de práctica básica"
@@ -280,7 +271,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={csscolor}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193522/lczrddgt9udhy1qqdkgr.png"
                 isBlog={false}
                 title="CSS Colors Markers"
                 description="CSS Colors Markers, agrega color a tus páginas Web con CSS puro, aquí tienes una muestra de lo que puedes hacer"
@@ -291,7 +282,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={pick}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193588/nmwak0nwwoydinso43az.png"
                 isBlog={false}
                 title="Pick Paleta de Colores"
                 description="Color Pick es una herramienta útil para seleccionar colores de forma rápida."
@@ -302,7 +293,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={boton}
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193643/vdgrtbsefnu4rehumjgn.png"
                 isBlog={false}
                 title="Botones Animados"
                 description="Crea botones animados con CSS y HTML. Aprende a usar transiciones, transformaciones y animaciones para darles vida a tus botones. ¡Aprende a crear botones animados!"
