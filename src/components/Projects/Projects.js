@@ -22,6 +22,7 @@ import boton from "../../Assets/Projects/boton.png";
 import certif from "../../Assets/Projects/certif.png";
 import certCommand from "../../Assets/Projects/certCommand.png";
 import certHack from "../../Assets/Projects/certHack.png";
+import ekcloud from "../../Assets/Projects/ekcloud.png";
 import { Button } from "react-bootstrap";
 
 import i18n from "../../i18n";
@@ -53,8 +54,10 @@ function Projects() {
         <Particle />
         <Container>
           <h1 className="project-heading">
-          {i18n.t("projects.my")}{" "}
-            <strong className="text-info">{i18n.t("projects.certificates-and-diplomas")} </strong>
+            {i18n.t("projects.my")}{" "}
+            <strong className="text-info">
+              {i18n.t("projects.certificates-and-diplomas")}{" "}
+            </strong>
           </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
@@ -62,17 +65,21 @@ function Projects() {
                 imgPath={certif}
                 isBlog={false}
                 title={i18n.t("projects.soyhenry-certificate")}
-                description={i18n.t("projects.soyhenry-Full-Stack-Developer-Certificate-a-photo-says-more-than-a-thousand-words")}
+                description={i18n.t(
+                  "projects.soyhenry-Full-Stack-Developer-Certificate-a-photo-says-more-than-a-thousand-words"
+                )}
                 demoLink="https://certificates.soyhenry.com/cert?id=ce050ad9-698b-4f8d-9134-97822529b6ea"
               />
             </Col>
-            
+
             <Col md={4} className="project-card">
               <ProjectCert
                 imgPath={certHack}
                 isBlog={false}
                 title={i18n.t("projects.hackerrank-certificate")}
-                description={i18n.t("projects.hackerRank-Certified-Solving-JavaScript-problems-a-photo-says-more-than-a-thousand-words")}
+                description={i18n.t(
+                  "projects.hackerRank-Certified-Solving-JavaScript-problems-a-photo-says-more-than-a-thousand-words"
+                )}
                 demoLink="https://www.hackerrank.com/certificates/b7c0af0a42fd"
               />
             </Col>
@@ -82,18 +89,33 @@ function Projects() {
                 imgPath={certCommand}
                 isBlog={false}
                 title={i18n.t("projects.codecademy-certificate")}
-                description={i18n.t("projects.Codecademy-Certificate-in-Linux-Command-Line-a-photo-says-more-than-a-thousand-words")}
+                description={i18n.t(
+                  "projects.Codecademy-Certificate-in-Linux-Command-Line-a-photo-says-more-than-a-thousand-words"
+                )}
                 demoLink="https://www.codecademy.com/profiles/ekisler/certificates/c87ba0541f8be78bc2f4ba1128233f6f"
               />
             </Col>
 
             <h1 className="project-heading">
-            {i18n.t("projects.my-recent")}{" "}
-            <strong className="text-info">{i18n.t("projects.works")} </strong>
-          </h1>
-          <p style={{ color: "white" }}>
-            {i18n.t("projects.here-are-a-few-projects-i-ve-worked-on-recently")}
-          </p>
+              {i18n.t("projects.my-recent")}{" "}
+              <strong className="text-info">{i18n.t("projects.works")} </strong>
+            </h1>
+            <p style={{ color: "white" }}>
+              {i18n.t(
+                "projects.here-are-a-few-projects-i-ve-worked-on-recently"
+              )}
+            </p>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={ekcloud}
+                isBlog={false}
+                title="EK Cloudinary"
+                description="Sube tus imagenes y vdeos y mantenlas en lugar seguro usando la API de Cloudinary junto a la biblioteca React.js"
+                ghLink="https://github.com/ekisler/ek-cloudinary"
+                demoLink="https://ek-cloudinary.vercel.app/"
+              />
+            </Col>
 
             <Col md={4} className="project-card">
               <ProjectCard
