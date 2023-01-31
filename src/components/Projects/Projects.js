@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import ProjectCert from "./ProjectCert";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
@@ -18,6 +19,9 @@ import form from "../../Assets/Projects/form.png";
 import csscolor from "../../Assets/Projects/csscolor.png";
 import pick from "../../Assets/Projects/pick.png";
 import boton from "../../Assets/Projects/boton.png";
+import certif from "../../Assets/Projects/certif.png";
+import certCommand from "../../Assets/Projects/certCommand.png";
+import certHack from "../../Assets/Projects/certHack.png";
 import { Button } from "react-bootstrap";
 
 import i18n from "../../i18n";
@@ -49,19 +53,54 @@ function Projects() {
         <Particle />
         <Container>
           <h1 className="project-heading">
+          {i18n.t("projects.my")}{" "}
+            <strong className="text-info">{i18n.t("projects.certificates-and-diplomas")} </strong>
+          </h1>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath={certif}
+                isBlog={false}
+                title={i18n.t("projects.soyhenry-certificate")}
+                description={i18n.t("projects.soyhenry-Full-Stack-Developer-Certificate-a-photo-says-more-than-a-thousand-words")}
+                demoLink="https://certificates.soyhenry.com/cert?id=ce050ad9-698b-4f8d-9134-97822529b6ea"
+              />
+            </Col>
+            
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath={certHack}
+                isBlog={false}
+                title={i18n.t("projects.hackerrank-certificate")}
+                description={i18n.t("projects.hackerRank-Certified-Solving-JavaScript-problems-a-photo-says-more-than-a-thousand-words")}
+                demoLink="https://www.hackerrank.com/certificates/b7c0af0a42fd"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath={certCommand}
+                isBlog={false}
+                title={i18n.t("projects.codecademy-certificate")}
+                description={i18n.t("projects.Codecademy-Certificate-in-Linux-Command-Line-a-photo-says-more-than-a-thousand-words")}
+                demoLink="https://www.codecademy.com/profiles/ekisler/certificates/c87ba0541f8be78bc2f4ba1128233f6f"
+              />
+            </Col>
+
+            <h1 className="project-heading">
             {i18n.t("projects.my-recent")}{" "}
             <strong className="text-info">{i18n.t("projects.works")} </strong>
           </h1>
           <p style={{ color: "white" }}>
             {i18n.t("projects.here-are-a-few-projects-i-ve-worked-on-recently")}
           </p>
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={darkmode}
                 isBlog={false}
                 title="React Dark Mode"
-                description="Plantilla en React.js, Redux, HTML, CSS para realizar el Dark Mode en tus proyectos. Usalo como una guia experimental"
+                description="Plantilla en React.js, Redux, HTML, CSS para realizar el Dark Mode en tus proyectos. Usalo como una guía experimental"
                 ghLink="https://github.com/ekisler/ekdarklight"
                 demoLink="https://ekdarklight.netlify.app/"
               />
@@ -72,7 +111,7 @@ function Projects() {
                 imgPath={chat}
                 isBlog={false}
                 title="ChatGPT3"
-                description="Pregunta a la Inteligencia Artifical de OpenAI y te respondera de inmediato. Sin registrarte, solo entras y comienzas a interactuar con AI"
+                description="Pregunta a la Inteligencia Artifical de OpenAI y te respondera de inmediato. Sin registrarte, solo entras y comienzas a interactuar con la AI"
                 ghLink="https://github.com/ekisler/chatgpt"
                 demoLink="https://chatgpt-ek.vercel.app/"
               />
@@ -200,7 +239,7 @@ function Projects() {
                 imgPath={form}
                 isBlog={false}
                 title="Formularios"
-                description="Diesño de Formularios en HTML, CSS para cualquier usar en cualquier proyecto incluso de React y otras bibliotecas"
+                description="Diesño de Formularios en HTML, CSS para cualquier uso en cualquier proyecto incluso de React y otras bibliotecas"
                 ghLink="https://github.com/ekisler/form.github.io"
                 demoLink="https://ekisler.github.io/form.github.io/"
               />
@@ -211,7 +250,7 @@ function Projects() {
                 imgPath={gallery}
                 isBlog={false}
                 title="PhotoGallery"
-                description="PhotoGallery "
+                description="Galeria de fotos realizado en HTML y CSS, ejemplo sencillo de práctica básica"
                 ghLink="https://github.com/ekisler/photogallery.github.io"
                 demoLink="https://ekisler.github.io/photogallery.github.io/"
               />
@@ -233,7 +272,7 @@ function Projects() {
                 imgPath={pick}
                 isBlog={false}
                 title="Pick Paleta de Colores"
-                description="Color Pick es una herramienta útil para seleccionar colores de forma rápida y precisa."
+                description="Color Pick es una herramienta útil para seleccionar colores de forma rápida."
                 ghLink=""
                 demoLink="https://kisler-color.netlify.app/"
               />
@@ -249,7 +288,6 @@ function Projects() {
                 demoLink="https://ekisler.github.io/buttons.github.io/"
               />
             </Col>
-
           </Row>
         </Container>
       </Container>
