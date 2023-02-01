@@ -33,99 +33,7 @@ function Projects() {
         </div>
         <Particle />
         <Container>
-          <h1 className="project-heading">
-            {i18n.t("projects.my")}{" "}
-            <strong className="text-info">
-              {i18n.t("projects.certificates-and-diplomas")}{" "}
-            </strong>
-          </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <Col md={4} className="project-card">
-              <ProjectCert
-                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675189918/bw07wvbtoiog3choi8ic.png"
-                isBlog={false}
-                title={i18n.t("projects.soyhenry-certificate")}
-                description={i18n.t(
-                  "projects.soyhenry-Full-Stack-Developer-Certificate-a-photo-says-more-than-a-thousand-words"
-                )}
-                demoLink="https://certificates.soyhenry.com/cert?id=ce050ad9-698b-4f8d-9134-97822529b6ea"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCert
-                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675190334/kes3wzclknaehythrj2x.png"
-                isBlog={false}
-                title={i18n.t("projects.hackerrank-certificate")}
-                description={i18n.t(
-                  "projects.hackerRank-Certified-Solving-JavaScript-problems-a-photo-says-more-than-a-thousand-words"
-                )}
-                demoLink="https://www.hackerrank.com/certificates/b7c0af0a42fd"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCert
-                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675190734/g9kubbq7qjdmhwrx08ry.png"
-                isBlog={false}
-                title={i18n.t("projects.codecademy-certificate")}
-                description={i18n.t(
-                  "projects.Codecademy-Certificate-in-Linux-Command-Line-a-photo-says-more-than-a-thousand-words"
-                )}
-                demoLink="https://www.codecademy.com/profiles/ekisler/certificates/c87ba0541f8be78bc2f4ba1128233f6f"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCert
-                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675250109/xx3wfpnfmh18twpphazo.jpg"
-                isBlog={false}
-                title="Programación de Apps Móviles"
-                description="Curso de Programación de Apps para Móviles realizado en la Universidad Complutense de Madrid"
-                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675250109/xx3wfpnfmh18twpphazo.jpg"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCert
-                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251471/hjmiwf2oyeyf5e2qyfjf.jpg"
-                isBlog={false}
-                title="Marketing Digital"
-                description="Curso Básico de Marketing Digital realizado en: Interactive Advertising Bureau"
-                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251471/hjmiwf2oyeyf5e2qyfjf.jpg"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCert
-                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251043/vehgmez7dzw8mnbmxanl.jpg"
-                isBlog={false}
-                title="Introducción al Desarrollo Web"
-                description="Curso de Introducción al Desarrollo Web, incluye: Historia Web, Funcionameinto, Estructura Web, Publicación, Web Correcta"
-                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251043/vehgmez7dzw8mnbmxanl.jpg"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCert
-                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252142/kaotbtvqyfojj60soy64.jpg"
-                isBlog={false}
-                title="Analítica Web"
-                description="Curso de Analítica Web, realizado en: Escuela de Organización Industrial (EOI)"
-                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252142/kaotbtvqyfojj60soy64.jpg"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCert
-                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252506/h1dyuwxawc0j0plesnpg.jpg"
-                isBlog={false}
-                title="Conexiones IPV6"
-                description="Certificación en Conexiones IPV6 realizado en: Hurricany Electric"
-                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252506/h1dyuwxawc0j0plesnpg.jpg"
-              />
-            </Col>
-
             <h1 className="project-heading">
               {i18n.t("projects.my-recent")}{" "}
               <strong className="text-info">{i18n.t("projects.works")} </strong>
@@ -349,6 +257,99 @@ function Projects() {
                 description="Crea botones animados con CSS y HTML. Aprende a usar transiciones, transformaciones y animaciones para darles vida a tus botones. ¡Aprende a crear botones animados!"
                 ghLink="https://github.com/ekisler/buttons.github.io"
                 demoLink="https://ekisler.github.io/buttons.github.io/"
+              />
+            </Col>
+
+            <h1 className="project-heading">
+              {i18n.t("projects.my")}{" "}
+              <strong className="text-info">
+                {i18n.t("projects.certificates-and-diplomas")}{" "}
+              </strong>
+            </h1>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675189918/bw07wvbtoiog3choi8ic.png"
+                isBlog={false}
+                title={i18n.t("projects.soyhenry-certificate")}
+                description={i18n.t(
+                  "projects.soyhenry-Full-Stack-Developer-Certificate-a-photo-says-more-than-a-thousand-words"
+                )}
+                demoLink="https://certificates.soyhenry.com/cert?id=ce050ad9-698b-4f8d-9134-97822529b6ea"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675190334/kes3wzclknaehythrj2x.png"
+                isBlog={false}
+                title={i18n.t("projects.hackerrank-certificate")}
+                description={i18n.t(
+                  "projects.hackerRank-Certified-Solving-JavaScript-problems-a-photo-says-more-than-a-thousand-words"
+                )}
+                demoLink="https://www.hackerrank.com/certificates/b7c0af0a42fd"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675190734/g9kubbq7qjdmhwrx08ry.png"
+                isBlog={false}
+                title={i18n.t("projects.codecademy-certificate")}
+                description={i18n.t(
+                  "projects.Codecademy-Certificate-in-Linux-Command-Line-a-photo-says-more-than-a-thousand-words"
+                )}
+                demoLink="https://www.codecademy.com/profiles/ekisler/certificates/c87ba0541f8be78bc2f4ba1128233f6f"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675250109/xx3wfpnfmh18twpphazo.jpg"
+                isBlog={false}
+                title="Programación de Apps Móviles"
+                description="Curso de Programación de Apps para Móviles realizado en la Universidad Complutense de Madrid"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675250109/xx3wfpnfmh18twpphazo.jpg"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251471/hjmiwf2oyeyf5e2qyfjf.jpg"
+                isBlog={false}
+                title="Marketing Digital"
+                description="Curso Básico de Marketing Digital realizado en: Interactive Advertising Bureau"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251471/hjmiwf2oyeyf5e2qyfjf.jpg"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251043/vehgmez7dzw8mnbmxanl.jpg"
+                isBlog={false}
+                title="Introducción al Desarrollo Web"
+                description="Curso de Introducción al Desarrollo Web, incluye: Historia Web, Funcionameinto, Estructura Web, Publicación, Web Correcta"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251043/vehgmez7dzw8mnbmxanl.jpg"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252142/kaotbtvqyfojj60soy64.jpg"
+                isBlog={false}
+                title="Analítica Web"
+                description="Curso de Analítica Web, realizado en: Escuela de Organización Industrial (EOI)"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252142/kaotbtvqyfojj60soy64.jpg"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252506/h1dyuwxawc0j0plesnpg.jpg"
+                isBlog={false}
+                title="Conexiones IPV6"
+                description="Certificación en Conexiones IPV6 realizado en: Hurricany Electric"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252506/h1dyuwxawc0j0plesnpg.jpg"
               />
             </Col>
           </Row>
