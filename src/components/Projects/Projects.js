@@ -43,51 +43,54 @@ function Projects() {
                 "projects.here-are-a-few-projects-i-ve-worked-on-recently"
               )}
             </p>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192075/t7r5cdu2vazub9u2s7b3.png"
                 isBlog={false}
                 title="EK Cloudinary"
-                description="Sube tus imagenes y vdeos y mantenlas en lugar seguro usando la API de Cloudinary junto a la biblioteca React.js"
+                description={i18n.t(
+                  "projects.Upload-your-images-and-videos-and-keep-them-safe-using-the-Cloudinary-API-together-with-the-React-library"
+                )}
                 ghLink="https://github.com/ekisler/ek-cloudinary"
                 demoLink="https://ek-cloudinary.vercel.app/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675188819/fib0nmv2kkm8irolklud.png"
                 isBlog={false}
                 title="EK Auth-0"
-                description="Que tu sitio tenga la mejor autenticación es una idea genial, Usa la Api de Auth-0 en tus proyectos React.js"
+                description={i18n.t(
+                  "projects.Making-your-site-have-the-best-authentication-is-a-great-idea-Use-the-Auth-0-API-in-your-React-projects"
+                )}
                 ghLink="https://github.com/ekisler/ek-auth0"
                 demoLink="https://ek-auth0.netlify.app/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192215/eikhqbxbpt46cdld25bi.png"
                 isBlog={false}
-                title="React Dark Mode"
-                description="Plantilla en React.js, Redux, HTML, CSS para realizar el Dark Mode en tus proyectos. Usalo como una guía experimental"
+                title={i18n.t("projects.react-dark-mode")}
+                description={i18n.t(
+                  "projects.template-in-React-Redux-HTML-CSS-to-perform-the-Dark-Mode-in-your-projects-Use-it-as-an-experimental-guide"
+                )}
                 ghLink="https://github.com/ekisler/ekdarklight"
                 demoLink="https://ekdarklight.netlify.app/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192301/a1qn5u0eopio4os8zfzn.png"
                 isBlog={false}
                 title="ChatGPT3"
-                description="Pregunta a la Inteligencia Artifical de OpenAI y te respondera de inmediato. Sin registrarte, solo entras y comienzas a interactuar con la AI"
+                description={i18n.t(
+                  "projects.Ask-OpenAI-Artificial-Intelligence-and-they-will-answer-you-immediately-Without-registering-you-just-go-in-and-start-interacting-with-the-AI"
+                )}
                 ghLink="https://github.com/ekisler/chatgpt"
                 demoLink="https://chatgpt-ek.vercel.app/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192378/nnjvp8ayf4ooy243nfy6.png"
@@ -100,7 +103,6 @@ function Projects() {
                 demoLink="https://scaneame.vercel.app/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192484/bmzbuq97x36jion1gbts.png"
@@ -113,7 +115,6 @@ function Projects() {
                 demoLink="https://kisler-poke.vercel.app/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192607/mraytgshxijhn54ky0zj.png"
@@ -126,7 +127,6 @@ function Projects() {
                 demoLink="https://kisler-portfolio.netlify.app/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192738/zr0l5fgibihmnpudpguu.png"
@@ -139,7 +139,6 @@ function Projects() {
                 demoLink="https://ekisler.github.io/apimovie.github.io/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192873/ygesx1qe7pzey1w7a4rm.png"
@@ -152,7 +151,6 @@ function Projects() {
                 demoLink="https://kisler-mern.herokuapp.com/login/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675192995/v9rk9fam870ff98jycjx.png"
@@ -165,7 +163,6 @@ function Projects() {
                 demoLink="https://ekisler.github.io/responsive.github.io/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193142/ekqa18cebuxfqk5gbhbw.png"
@@ -178,7 +175,6 @@ function Projects() {
                 demoLink="https://ekisler.github.io/menucafe.github.io/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193219/wwwvfqiuptoq1r4ifpsu.png"
@@ -193,7 +189,6 @@ function Projects() {
                 demoLink="https://ekisler.github.io/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193305/edclwvzijpfcuamum236.png"
@@ -204,69 +199,72 @@ function Projects() {
                 demoLink="https://ekisler.github.io/nutrition.github.io/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193369/fucggyxqqaoyzwgikkct.png"
                 isBlog={false}
-                title="Formularios"
-                description="Diesño de Formularios en HTML, CSS para cualquier uso en cualquier proyecto incluso de React y otras bibliotecas"
+                title={i18n.t("projects.form")}
+                description={i18n.t(
+                  "projects.design-of-Forms-in-HTML-CSS-for-any-use-in-any-project-including-React-nd-other-libraries"
+                )}
                 ghLink="https://github.com/ekisler/form.github.io"
                 demoLink="https://ekisler.github.io/form.github.io/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193443/uncxsl9aroijtosphjv9.png"
                 isBlog={false}
-                title="PhotoGallery"
-                description="Galeria de fotos realizado en HTML y CSS, ejemplo sencillo de práctica básica"
+                title={i18n.t("projects.photo-gallery")}
+                description={i18n.t(
+                  "projects.photo-gallery-made-in-HTML-and-CSS-simple-example-of-basic-practice"
+                )}
                 ghLink="https://github.com/ekisler/photogallery.github.io"
                 demoLink="https://ekisler.github.io/photogallery.github.io/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193522/lczrddgt9udhy1qqdkgr.png"
                 isBlog={false}
-                title="CSS Colors Markers"
-                description="CSS Colors Markers, agrega color a tus páginas Web con CSS puro, aquí tienes una muestra de lo que puedes hacer"
+                title={i18n.t("projects.css-colors-markers")}
+                description={i18n.t(
+                  "projects.css-colors-markers-add-color-to-your-Web-pages-with-pure-css-here-is-a-sample-of-what-you-can-do"
+                )}
                 ghLink="https://github.com/ekisler/css-colors-market.github.io"
                 demoLink="https://ekisler.github.io/css-colors-market.github.io/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193588/nmwak0nwwoydinso43az.png"
                 isBlog={false}
-                title="Pick Paleta de Colores"
-                description="Color Pick es una herramienta útil para seleccionar colores de forma rápida."
+                title={i18n.t("projects.pick-color-palette")}
+                description={i18n.t(
+                  "projects.color-pick-is-a-useful-tool-to-select-colors-quickly"
+                )}
                 ghLink=""
                 demoLink="https://kisler-color.netlify.app/"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675193643/vdgrtbsefnu4rehumjgn.png"
                 isBlog={false}
-                title="Botones Animados"
-                description="Crea botones animados con CSS y HTML. Aprende a usar transiciones, transformaciones y animaciones para darles vida a tus botones. ¡Aprende a crear botones animados!"
+                title={i18n.t("projects.animated-buttons")}
+                description={i18n.t(
+                  "projects.Create-animated-buttons-with-CSS-and-HTML-Learn-how-to-use-transitions-transformations-and-animations-to-bring-your-buttons-to-life-Learn-how-to-create-animated-buttons"
+                )}
                 ghLink="https://github.com/ekisler/buttons.github.io"
                 demoLink="https://ekisler.github.io/buttons.github.io/"
               />
             </Col>
-
             <h1 className="project-heading">
               {i18n.t("projects.my")}{" "}
               <strong className="text-info">
                 {i18n.t("projects.certificates-and-diplomas")}{" "}
               </strong>
             </h1>
-
             <Col md={4} className="project-card">
               <ProjectCert
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675189918/bw07wvbtoiog3choi8ic.png"
@@ -278,7 +276,6 @@ function Projects() {
                 demoLink="https://certificates.soyhenry.com/cert?id=ce050ad9-698b-4f8d-9134-97822529b6ea"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCert
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675190334/kes3wzclknaehythrj2x.png"
@@ -290,7 +287,6 @@ function Projects() {
                 demoLink="https://www.hackerrank.com/certificates/b7c0af0a42fd"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCert
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675190734/g9kubbq7qjdmhwrx08ry.png"
@@ -302,53 +298,58 @@ function Projects() {
                 demoLink="https://www.codecademy.com/profiles/ekisler/certificates/c87ba0541f8be78bc2f4ba1128233f6f"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCert
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675250109/xx3wfpnfmh18twpphazo.jpg"
                 isBlog={false}
-                title="Programación de Apps Móviles"
-                description="Curso de Programación de Apps para Móviles realizado en la Universidad Complutense de Madrid"
+                title={i18n.t("projects.mobile-apps-programming")}
+                description={i18n.t(
+                  "projects.mobile-app-programming-course-held-at-the-complutense-university-of-Madrid"
+                )}
                 demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675250109/xx3wfpnfmh18twpphazo.jpg"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCert
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251471/hjmiwf2oyeyf5e2qyfjf.jpg"
                 isBlog={false}
-                title="Marketing Digital"
-                description="Curso Básico de Marketing Digital realizado en: Interactive Advertising Bureau"
+                title={i18n.t("projects.digital-marketing")}
+                description={i18n.t(
+                  "projects.Basic-Digital-Marketing-Course-held-at-Interactive-Advertising-Bureau"
+                )}
                 demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251471/hjmiwf2oyeyf5e2qyfjf.jpg"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCert
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251043/vehgmez7dzw8mnbmxanl.jpg"
                 isBlog={false}
-                title="Introducción al Desarrollo Web"
-                description="Curso de Introducción al Desarrollo Web, incluye: Historia Web, Funcionameinto, Estructura Web, Publicación, Web Correcta"
+                title={i18n.t("projects.introduction-to-Web-Development")}
+                description={i18n.t(
+                  "projects.Introduction-to-Web-Development-Course-includes-Web-History-Functioning-Web-Structure-Publication-Correct-Web"
+                )}
                 demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251043/vehgmez7dzw8mnbmxanl.jpg"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCert
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252142/kaotbtvqyfojj60soy64.jpg"
                 isBlog={false}
-                title="Analítica Web"
-                description="Curso de Analítica Web, realizado en: Escuela de Organización Industrial (EOI)"
+                title={i18n.t("projects.web-analytics")}
+                description={i18n.t(
+                  "projects.Web-Analytics-Course-held-at-School-of-Industrial-Organization"
+                )}
                 demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252142/kaotbtvqyfojj60soy64.jpg"
               />
             </Col>
-
             <Col md={4} className="project-card">
               <ProjectCert
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252506/h1dyuwxawc0j0plesnpg.jpg"
                 isBlog={false}
-                title="Conexiones IPV6"
-                description="Certificación en Conexiones IPV6 realizado en: Hurricany Electric"
+                title={i18n.t("projects.ipv6-connections")}
+                description={i18n.t(
+                  "projects.Certification-in-IPV6-Connections-carried-out-at-Hurricane-Electric"
+                )}
                 demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252506/h1dyuwxawc0j0plesnpg.jpg"
               />
             </Col>
