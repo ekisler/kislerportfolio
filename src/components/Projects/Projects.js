@@ -76,6 +76,56 @@ function Projects() {
               />
             </Col>
 
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675250109/xx3wfpnfmh18twpphazo.jpg"
+                isBlog={false}
+                title="Programación de Apps Móviles"
+                description="Curso de Programación de Apps para Móviles realizado en la Universidad Complutense de Madrid"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675250109/xx3wfpnfmh18twpphazo.jpg"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251471/hjmiwf2oyeyf5e2qyfjf.jpg"
+                isBlog={false}
+                title="Marketing Digital"
+                description="Curso Básico de Marketing Digital realizado en: Interactive Advertising Bureau"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251471/hjmiwf2oyeyf5e2qyfjf.jpg"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251043/vehgmez7dzw8mnbmxanl.jpg"
+                isBlog={false}
+                title="Introducción al Desarrollo Web"
+                description="Curso de Introducción al Desarrollo Web, incluye: Historia Web, Funcionameinto, Estructura Web, Publicación, Web Correcta"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675251043/vehgmez7dzw8mnbmxanl.jpg"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252142/kaotbtvqyfojj60soy64.jpg"
+                isBlog={false}
+                title="Analítica Web"
+                description="Curso de Analítica Web, realizado en: Escuela de Organización Industrial (EOI)"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252142/kaotbtvqyfojj60soy64.jpg"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252506/h1dyuwxawc0j0plesnpg.jpg"
+                isBlog={false}
+                title="Conexiones IPV6"
+                description="Certificación en Conexiones IPV6 realizado en: Hurricany Electric"
+                demoLink="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675252506/h1dyuwxawc0j0plesnpg.jpg"
+              />
+            </Col>
+
             <h1 className="project-heading">
               {i18n.t("projects.my-recent")}{" "}
               <strong className="text-info">{i18n.t("projects.works")} </strong>
