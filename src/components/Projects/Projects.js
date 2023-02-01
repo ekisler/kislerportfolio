@@ -151,8 +151,8 @@ function Projects() {
               <ProjectCard
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675188819/fib0nmv2kkm8irolklud.png"
                 isBlog={false}
-                title="EK Auth0"
-                description="Que tu sitio tenga la mejor autenticación es una idea genial, Usa la Api de Auth0 en tus proyectos React.js"
+                title="EK Auth-0"
+                description="Que tu sitio tenga la mejor autenticación es una idea genial, Usa la Api de Auth-0 en tus proyectos React.js"
                 ghLink="https://github.com/ekisler/ek-auth0"
                 demoLink="https://ek-auth0.netlify.app/"
               />
