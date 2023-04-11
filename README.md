@@ -35,6 +35,7 @@ My personal portfolio <a href="https://kislerportfolio.vercel.app" target="_blan
 
 This project was built using these technologies.
 
+-JavaScript
 - React.js
 - Node.js
 - Express.js

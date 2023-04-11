@@ -267,6 +267,51 @@ function Projects() {
             </h1>
             <Col md={4} className="project-card">
               <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1681221076/c4sgrqzl5ddozvltqzhe.png"
+                isBlog={false}
+                title="Backend Developer and APIs"
+                description="Certificado de Desarrollo Backend con Node.js y Express.js de FreeCodeCamp"
+                demoLink="https://www.freecodecamp.org/espanol/certification/EmiDev/back-end-development-and-apis"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1681222431/ccifcom5kdx711xlgjhx.png"
+                isBlog={false}
+                title="JavaScript Algorithms and Data"
+                description="Certificado de JavaScript Algorithms and Data de FreeCodeCamp"
+                demoLink="https://www.freecodecamp.org/espanol/certification/EmiDev/javascript-algorithms-and-data-structures"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1681223065/tiehcjmhjcxkkc39sbdq.png"
+                isBlog={false}
+                title="Frontend Development Libraries"
+                description="Certificado de Frontend Development Libraries de FreeCodeCamp"
+                demoLink="https://www.freecodecamp.org/certification/EmiDev/front-end-development-libraries"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1681223541/kuec66e0xuonwygouv76.png"
+                isBlog={false}
+                title="Responsive Web Design"
+                description="Certificado de Responsive Web Design de FreeCodeCamp"
+                demoLink="https://www.freecodecamp.org/certification/EmiDev/responsive-web-design"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCert
+                imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1681224914/ntdb7vmxmeko2u4yonuq.jpg"
+                isBlog={false}
+                title="Desarrollo de Software"
+                description="Introducción a las Habilidades Profesionales en el Desarrollo de Software Por Microsoft y Linkedin"
+                demoLink="https://www.linkedin.com/learning/certificates/30081ff515080d83f3fa8e7f2d412eddce7745d643b3c79119cb82a11a377ad2"
+              />
+            </Col>
+            <Col md={4} className="project-card">
+              <ProjectCert
                 imgPath="https://res.cloudinary.com/dxfksb8ua/image/upload/v1675189918/bw07wvbtoiog3choi8ic.png"
                 isBlog={false}
                 title={i18n.t("projects.soyhenry-certificate")}
