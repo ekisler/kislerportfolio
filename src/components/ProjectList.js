@@ -9,7 +9,7 @@ const ProjectList = () => {
 
   useEffect(() => {
     axios
-      get("https://backend-portfolio-seven.vercel.app/projects")
+      .get("https://backend-portfolio-seven.vercel.app/projects")
       .then((response) => {
         setProjects(response.data);
         setIsLoading(false);
