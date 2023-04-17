@@ -4,37 +4,36 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
-function ProjectCards(props) {
+function projectCards({ project }) {
   return (
-    <Card className="project-card-view">
-      <Card.Img variant="info" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        <Button variant="info" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="info"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+    <div className="card-container">
+      <Card className="project-card-view">
+        <Card.Body className="custom-card-body">
+          <Card.Title>{project.title}</Card.Title>
+          <Card.Img variant="top" src={project.imgPath} alt="card-img" />
+          <Card.Text style={{ textAlign: "justify" }}>
+            {project.description}
+          </Card.Text>
+          <Button variant="info" href={project.ghLink} target="_blank">
+            <BsGithub /> &nbsp;
+            {project.isBlog ? "Blog" : "GitHub"}
           </Button>
-        )}
-      </Card.Body>
-    </Card>
+          {"\n"}
+          {"\n"}
+          {!project.isBlog && project.demoLink && (
+            <Button
+              variant="info"
+              href={project.demoLink}
+              target="_blank"
+              style={{ marginLeft: "10px" }}
+            >
+              <CgWebsite /> &nbsp;
+              {"Demo"}
+            </Button>
+          )}
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
-export default ProjectCards;
+export default projectCards;

@@ -432,6 +432,13 @@ button:focus {
 /* --------- */
 /* Projects */
 /* --------- */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -454,11 +461,19 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border: 2px solid #e5e5e5;
+  width: 20rem;
+  border-radius: 5px;
+  margin: 10px;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(7, 158, 245, 0.561) !important;
+}
+
+.custom-card-body {
+  padding: 16px;
 }
 
 .blog-card {
